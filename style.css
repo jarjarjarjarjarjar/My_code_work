@@ -1,28 +1,19 @@
-body {
-    text-align: center;
-    background-color: orange;
+.body_backgorund {
+    background-image: url("https://i.postimg.cc/63cjmfvH/bg1.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
-img {
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
+h1 {
+    color: red;
+    font-size: 40px;
 }
 
-.line {
-    height: 6px;
-    background-color: aquamarine;
-    width: 150px;
-    margin: 8px auto;
+#myCanvas {
+    background-color: white;
+    border-style: ridge;
 }
 
-.menu {
-    list-style: none;
-    font-family: cursive;
-    float: right;
-    top: 10px;
-    right: 30px;
-    cursor: pointer;
-    color: aqua;
+span {
+    font-size: 20px;
 }
-li{display: inline}
